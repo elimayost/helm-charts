@@ -1,7 +1,5 @@
 
 argo-workflows:
-	namespace: argo-workflows
-
   server:
     extraArgs:
       - --auth-mode=server
