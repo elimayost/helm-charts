@@ -5,6 +5,8 @@ metadata:
 spec:
   serviceAccountName: workflows-user
   entrypoint: hello
+  podGC:
+    strategy: OnWorkflowCompletion
   templates:
   - name: hello
     container:
