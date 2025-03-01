@@ -1,6 +1,5 @@
 apiVersion: v2
 name: argo-workflows
-namespace: argo-workflows
 description: A Helm chart that pulls argo workflows chart as a dependency
 version: 0.0.1
 type: application
